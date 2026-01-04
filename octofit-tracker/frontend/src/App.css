@@ -1,0 +1,116 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff6f61;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Custom table styles */
+table.table {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+thead.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+tbody tr {
+  background-color: #e3f2fd;
+}
+tbody tr:nth-child(even) {
+  background-color: #bbdefb;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-info {
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Custom heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+/* Custom navigation styles */
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border-radius: 8px;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 8px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
